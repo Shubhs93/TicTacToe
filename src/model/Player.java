@@ -39,10 +39,10 @@ public class Player {
 
     public Move decideMove(Board board){
         Scanner sc= new Scanner(System.in);
-        System.out.println("ENter the row for move");
+        System.out.println("Enter the row for move");
         int row=sc.nextInt();
         System.out.println("Enter the column for move");
         int col=sc.nextInt();
-        return new Move(this,new cell(row,col));
+        return new Move(this,new Cell(row,col));
     }
 }

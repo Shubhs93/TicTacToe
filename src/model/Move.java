@@ -2,9 +2,9 @@ package model;
 
 public class Move {
     private Player player;
-    private cell cell;
+    private Cell cell;
 
-    public Move(Player player, model.cell cell) {
+    public Move(Player player, Cell cell) {
         this.player = player;
         this.cell = cell;
     }
@@ -17,11 +17,11 @@ public class Move {
         this.player = player;
     }
 
-    public model.cell getCell() {
+    public Cell getCell() {
         return cell;
     }
 
-    public void setCell(model.cell cell) {
+    public void setCell(Cell cell) {
         this.cell = cell;
     }
 }
