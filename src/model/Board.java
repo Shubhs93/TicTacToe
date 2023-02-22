@@ -21,13 +21,14 @@ public class Board {
             for(int j=0;j<board.size();j++){
                 CellState cellState=board.get(i).get(j).getCellState();
                 if(cellState==CellState.EMPTY){
-                    System.out.println("|XXX|");
+                    System.out.print("|   |");
                 } else if (cellState==CellState.BLOCKED) {
-                    System.out.println("|"+ board.get(i).get(j).getPlayer().getSymbol()+"|");
+                    System.out.print("| "+ board.get(i).get(j).getPlayer().getSymbol()+" |");
                 }else {
-                    System.out.println("|   |");
+                    System.out.print("|   |");
                 }
             }
+            System.out.println();
         }
     }
 
