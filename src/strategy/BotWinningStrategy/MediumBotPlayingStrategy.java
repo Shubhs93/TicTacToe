@@ -1,5 +1,6 @@
 package strategy.BotWinningStrategy;
 
+import enums.CellState;
 import model.*;
 
 public class MediumBotPlayingStrategy implements BotPlayingStrategy {

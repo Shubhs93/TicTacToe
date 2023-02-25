@@ -1,5 +1,7 @@
 package model;
 
+import enums.CellState;
+
 public class Cell {
     private CellState cellState = CellState.EMPTY;
     private  int row;

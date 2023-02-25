@@ -1,5 +1,7 @@
 package model;
 
+import enums.CellState;
+
 import java.util.ArrayList;
 import java.util.List;
 

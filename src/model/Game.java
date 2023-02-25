@@ -1,5 +1,7 @@
 package model;
 
+import enums.CellState;
+import enums.GameState;
 import strategy.GameWinningStrategy.GameWinningStrategy;
 import strategy.GameWinningStrategy.OrderOneWinningStrategy;
 

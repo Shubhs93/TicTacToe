@@ -1,8 +1,7 @@
 package controller;
 
-import model.Board;
 import model.Game;
-import model.GameState;
+import enums.GameState;
 import model.Player;
 
 import java.util.List;

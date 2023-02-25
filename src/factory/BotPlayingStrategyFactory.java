@@ -1,6 +1,6 @@
 package factory;
 
-import model.BotDifficultyLevel;
+import enums.BotDifficultyLevel;
 import strategy.BotWinningStrategy.BotPlayingStrategy;
 import strategy.BotWinningStrategy.HardBotPlayingStrategy;
 import strategy.BotWinningStrategy.LinearBotPlayingStrategy;

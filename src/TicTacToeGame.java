@@ -1,4 +1,7 @@
 import controller.GameController;
+import enums.BotDifficultyLevel;
+import enums.GameState;
+import enums.PlayerType;
 import model.*;
 
 import java.util.ArrayList;
